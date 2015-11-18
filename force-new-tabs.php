@@ -21,6 +21,6 @@ function fnt_add_scripts()
         ,true
     );
 
-    wp_localize_script( 'force-new-tab', 'FNT', array('ajaxurl' => admin_url( 'admin-ajax.php' ), 'siteurl' => site_url() ) );
+    wp_localize_script( 'force-new-tab', 'FNT', array( 'siteurl' => site_url() ) );
 }
 add_action('wp_enqueue_scripts', 'fnt_add_scripts' );
