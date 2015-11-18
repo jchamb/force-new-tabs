@@ -3,7 +3,7 @@
 Plugin Name: Force New Tab
 Description: Force external links into a new tab
 Plugin URI: http://jchamb.com
-Author: Author
+Author: Jake Chamberlain
 Author URI: http://jchamb.com
 Version: 1.0
 License: GPL2
